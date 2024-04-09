@@ -38,6 +38,30 @@
             tools:layout_editor_absoluteY="61dp"
             tools:srcCompat="@tools:sample/avatars" />
 
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Female"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Male"
+            tools:layout_editor_absoluteX="229dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose your character!"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="16dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
